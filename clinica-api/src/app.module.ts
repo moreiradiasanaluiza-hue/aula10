@@ -13,7 +13,7 @@ import { Tutor } from './tutores/tutor.entity.js';
     username:'root',
     password:'12345678',
     database: 'clinica_bd',
-    entities:[Tutor],
+   entities:[Tutor, Raca, Origem, pet, Especie],
     synchronize:true,
     logging:true,
     }),
